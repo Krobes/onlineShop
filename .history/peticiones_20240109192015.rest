@@ -1,0 +1,15 @@
+GET http://localhost:3000/api/products
+
+###
+
+POST http://localhost:3000/api/products
+Content-Content-Type: application/json
+
+{
+    "name": "Sartén",
+    "description": "Sartén redonda para freír",
+    "price": 25,
+    "stock": 300,
+    "department": "cocina",
+    "available": true
+}
